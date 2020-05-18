@@ -86,10 +86,23 @@ hist(score, main="학생 성적",xlab="점수", ylab="빈도수", col="purple", 
 
 #
 #
-#문제4
+#문제4*
 #
 mtcars
 head(wt)
+wt <- c(mtcars[,6])
+wt
 
+cyl <- c(mtcars)
+cyl
 #1
 mean(wt)
+median(wt)
+mean(wt, trim = 0.15)
+sd(wt)
+
+#2
+summary(wt)
+
+#3
+table(cyl)
