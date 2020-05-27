@@ -1,6 +1,10 @@
 #남경훈 20.05.23/20.05.25
 
+<<<<<<< HEAD
 setwd ("C:\\R working space")
+=======
+setwd ("C:\\Rworkspace\\new-R-working-space")
+>>>>>>> 36eb3e3c3a2286e776c87c024c794c02a2a21a21
 
 ti <- read.csv(file="titanic_train.csv",
                header = T)
@@ -104,3 +108,20 @@ ggplot(ti.alive,aes(age))+
 #연령 대표값:29, 평균29.9
 #생존자 비율에서는 여성이 남성보다 2배 이상의 수치를 기록했다.
 
+<<<<<<< HEAD
+=======
+#
+boxplot(ti$age)
+boxplot(ti$age)$out
+boxplot(ti$age)$n
+boxplot(ti$age)$stats
+boxplot(ti$age)$conf
+
+boxplot(ti$fare)
+boxplot(ti$fare)$out
+boxplot(ti$fare)$n
+boxplot(ti$fare)$stats
+boxplot(ti$fare)$conf
+
+
+>>>>>>> 36eb3e3c3a2286e776c87c024c794c02a2a21a21
